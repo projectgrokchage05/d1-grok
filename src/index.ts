@@ -38,7 +38,7 @@ export default {
       // 4. 呼叫 Grok (這裡先用 Hardcode 的 System Prompt 測試連通性)
       // 之後我們會接上資料庫讀取動態 Prompt
       const completion = await openai.chat.completions.create({
-        model: "grok-beta", // [cite: 10]
+        model: "grok-4-1-fast-non-reasoning", // [cite: 10]
         messages: [
           {
             role: "system",
