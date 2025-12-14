@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "d1-grok",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "7b505412-0a95-4e31-99d6-a1c4c7c6f12e",
+			"database_name": "d1-grok-db"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
